@@ -1,0 +1,40 @@
+@"
+# Python
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# Secret key - KHONG day len GitHub
+secret.key
+
+# Runtime generated files
+storage/encrypted_chunks/*
+!storage/encrypted_chunks/.gitkeep
+
+storage/decrypted_chunks/*
+!storage/decrypted_chunks/.gitkeep
+
+storage/recovered_files/*
+!storage/recovered_files/.gitkeep
+
+storage/manifests/*
+!storage/manifests/.gitkeep
+
+# Logs generated while running
+logs/*.log
+
+# Input files: chi day file mau cua du an
+input_files/*
+!input_files/.gitkeep
+!input_files/sample.mp3
+!input_files/sample.wav
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+"@ | Set-Content .gitignore -Encoding UTF8

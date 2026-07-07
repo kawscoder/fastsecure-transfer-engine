@@ -1,0 +1,1 @@
+Document mode placeholder. This mode is planned for future integration with the user's document web system.
